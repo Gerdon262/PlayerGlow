@@ -1,0 +1,20 @@
+name: PlayerGlow
+version: ${project.version}
+main: me.greaperc4.playerglow.PlayerGlow
+api-version: 1.16
+authors: [ greaperc4 ]
+description: Make yourself or others glow.
+
+commands:
+  playerglow:
+    description: Make a player glow
+    aliases:
+      - pg
+
+permissions:
+  playerglow.use:
+    description: Ability to use the plugin
+  playerglow.others:
+    description: Ability to make others glow
+  playerglow.length:
+    description: Ability to set the duration of the glow effect (for yourself / for others)
